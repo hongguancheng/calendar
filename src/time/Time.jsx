@@ -83,7 +83,7 @@ class Time extends React.Component {
       showSecondPanel: 0,
     }, ()=> {
       // ie9 has broken focus
-      this.refs[setter].focus();
+      // this.refs[setter].focus();
     });
     this.props.onChange(value);
   }
